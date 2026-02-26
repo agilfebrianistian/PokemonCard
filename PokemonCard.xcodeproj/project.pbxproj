@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B419AEEE8EA37A60D3C8EB87 /* Pods_PokemonCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE31A279480ECE5E04C0DBE /* Pods_PokemonCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5F8CD422F4F7DAE00486EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F8CD232F4F7DAC00486EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F8CD2A2F4F7DAC00486EBB;
+			remoteInfo = PokemonCard;
+		};
+		C5F8CD4C2F4F7DAE00486EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5F8CD232F4F7DAC00486EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5F8CD2A2F4F7DAC00486EBB;
+			remoteInfo = PokemonCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0204DD38D96A421CBE4CDEE5 /* Pods-PokemonCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonCard.release.xcconfig"; path = "Target Support Files/Pods-PokemonCard/Pods-PokemonCard.release.xcconfig"; sourceTree = "<group>"; };
+		27A7AE358E5ABD9F1E266642 /* Pods-PokemonCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokemonCard.debug.xcconfig"; path = "Target Support Files/Pods-PokemonCard/Pods-PokemonCard.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F8CD2B2F4F7DAC00486EBB /* PokemonCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8CD412F4F7DAE00486EBB /* PokemonCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F8CD4B2F4F7DAE00486EBB /* PokemonCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE31A279480ECE5E04C0DBE /* Pods_PokemonCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokemonCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C5F8CD532F4F7DAE00486EBB /* Exceptions for "PokemonCard" folder in "PokemonCard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/Info.plist,
+			);
+			target = C5F8CD2A2F4F7DAC00486EBB /* PokemonCard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C5F8CD2D2F4F7DAC00486EBB /* PokemonCard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C5F8CD532F4F7DAE00486EBB /* Exceptions for "PokemonCard" folder in "PokemonCard" target */,
+			);
+			path = PokemonCard;
+			sourceTree = "<group>";
+		};
+		C5F8CD442F4F7DAE00486EBB /* PokemonCardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PokemonCardTests;
+			sourceTree = "<group>";
+		};
+		C5F8CD4E2F4F7DAE00486EBB /* PokemonCardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PokemonCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5F8CD282F4F7DAC00486EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419AEEE8EA37A60D3C8EB87 /* Pods_PokemonCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD3E2F4F7DAE00486EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD482F4F7DAE00486EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28281E10732BD4E0C18A214D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDE31A279480ECE5E04C0DBE /* Pods_PokemonCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8974B7FDA90A64D6DAEB436 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A7AE358E5ABD9F1E266642 /* Pods-PokemonCard.debug.xcconfig */,
+				0204DD38D96A421CBE4CDEE5 /* Pods-PokemonCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5F8CD222F4F7DAC00486EBB = {
+			isa = PBXGroup;
+			children = (
+				C5F8CD2D2F4F7DAC00486EBB /* PokemonCard */,
+				C5F8CD442F4F7DAE00486EBB /* PokemonCardTests */,
+				C5F8CD4E2F4F7DAE00486EBB /* PokemonCardUITests */,
+				C5F8CD2C2F4F7DAC00486EBB /* Products */,
+				A8974B7FDA90A64D6DAEB436 /* Pods */,
+				28281E10732BD4E0C18A214D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5F8CD2C2F4F7DAC00486EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5F8CD2B2F4F7DAC00486EBB /* PokemonCard.app */,
+				C5F8CD412F4F7DAE00486EBB /* PokemonCardTests.xctest */,
+				C5F8CD4B2F4F7DAE00486EBB /* PokemonCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5F8CD2A2F4F7DAC00486EBB /* PokemonCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F8CD542F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCard" */;
+			buildPhases = (
+				5A7C388EC88B43D2928A688B /* [CP] Check Pods Manifest.lock */,
+				C5F8CD272F4F7DAC00486EBB /* Sources */,
+				C5F8CD282F4F7DAC00486EBB /* Frameworks */,
+				C5F8CD292F4F7DAC00486EBB /* Resources */,
+				E955C13CA81B7D8D92477F3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C5F8CD2D2F4F7DAC00486EBB /* PokemonCard */,
+			);
+			name = PokemonCard;
+			productName = PokemonCard;
+			productReference = C5F8CD2B2F4F7DAC00486EBB /* PokemonCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5F8CD402F4F7DAE00486EBB /* PokemonCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F8CD592F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCardTests" */;
+			buildPhases = (
+				C5F8CD3D2F4F7DAE00486EBB /* Sources */,
+				C5F8CD3E2F4F7DAE00486EBB /* Frameworks */,
+				C5F8CD3F2F4F7DAE00486EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F8CD432F4F7DAE00486EBB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5F8CD442F4F7DAE00486EBB /* PokemonCardTests */,
+			);
+			name = PokemonCardTests;
+			productName = PokemonCardTests;
+			productReference = C5F8CD412F4F7DAE00486EBB /* PokemonCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5F8CD4A2F4F7DAE00486EBB /* PokemonCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5F8CD5C2F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCardUITests" */;
+			buildPhases = (
+				C5F8CD472F4F7DAE00486EBB /* Sources */,
+				C5F8CD482F4F7DAE00486EBB /* Frameworks */,
+				C5F8CD492F4F7DAE00486EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5F8CD4D2F4F7DAE00486EBB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5F8CD4E2F4F7DAE00486EBB /* PokemonCardUITests */,
+			);
+			name = PokemonCardUITests;
+			productName = PokemonCardUITests;
+			productReference = C5F8CD4B2F4F7DAE00486EBB /* PokemonCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5F8CD232F4F7DAC00486EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					C5F8CD2A2F4F7DAC00486EBB = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					C5F8CD402F4F7DAE00486EBB = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = C5F8CD2A2F4F7DAC00486EBB;
+					};
+					C5F8CD4A2F4F7DAE00486EBB = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = C5F8CD2A2F4F7DAC00486EBB;
+					};
+				};
+			};
+			buildConfigurationList = C5F8CD262F4F7DAC00486EBB /* Build configuration list for PBXProject "PokemonCard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5F8CD222F4F7DAC00486EBB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C5F8CD2C2F4F7DAC00486EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5F8CD2A2F4F7DAC00486EBB /* PokemonCard */,
+				C5F8CD402F4F7DAE00486EBB /* PokemonCardTests */,
+				C5F8CD4A2F4F7DAE00486EBB /* PokemonCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5F8CD292F4F7DAC00486EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD3F2F4F7DAE00486EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD492F4F7DAE00486EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A7C388EC88B43D2928A688B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokemonCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E955C13CA81B7D8D92477F3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokemonCard/Pods-PokemonCard-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PokemonCard/Pods-PokemonCard-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PokemonCard/Pods-PokemonCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5F8CD272F4F7DAC00486EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD3D2F4F7DAE00486EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F8CD472F4F7DAE00486EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5F8CD432F4F7DAE00486EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F8CD2A2F4F7DAC00486EBB /* PokemonCard */;
+			targetProxy = C5F8CD422F4F7DAE00486EBB /* PBXContainerItemProxy */;
+		};
+		C5F8CD4D2F4F7DAE00486EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5F8CD2A2F4F7DAC00486EBB /* PokemonCard */;
+			targetProxy = C5F8CD4C2F4F7DAE00486EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5F8CD552F4F7DAE00486EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A7AE358E5ABD9F1E266642 /* Pods-PokemonCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokemonCard/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5F8CD562F4F7DAE00486EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0204DD38D96A421CBE4CDEE5 /* Pods-PokemonCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PokemonCard/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5F8CD572F4F7DAE00486EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5F8CD582F4F7DAE00486EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5F8CD5A2F4F7DAE00486EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokemonCard";
+			};
+			name = Debug;
+		};
+		C5F8CD5B2F4F7DAE00486EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokemonCard";
+			};
+			name = Release;
+		};
+		C5F8CD5D2F4F7DAE00486EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokemonCard;
+			};
+			name = Debug;
+		};
+		C5F8CD5E2F4F7DAE00486EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agil.PokemonCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PokemonCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5F8CD262F4F7DAC00486EBB /* Build configuration list for PBXProject "PokemonCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8CD572F4F7DAE00486EBB /* Debug */,
+				C5F8CD582F4F7DAE00486EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F8CD542F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8CD552F4F7DAE00486EBB /* Debug */,
+				C5F8CD562F4F7DAE00486EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F8CD592F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8CD5A2F4F7DAE00486EBB /* Debug */,
+				C5F8CD5B2F4F7DAE00486EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5F8CD5C2F4F7DAE00486EBB /* Build configuration list for PBXNativeTarget "PokemonCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5F8CD5D2F4F7DAE00486EBB /* Debug */,
+				C5F8CD5E2F4F7DAE00486EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5F8CD232F4F7DAC00486EBB /* Project object */;
+}

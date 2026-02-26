@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.11.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - PromiseKit/CorePromise (8.2.0)
+  - SDWebImage (5.21.5):
+    - SDWebImage/Core (= 5.21.5)
+  - SDWebImage/Core (5.21.5)
+
+DEPENDENCIES:
+  - Moya
+  - NVActivityIndicatorView
+  - PromiseKit/CorePromise
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Moya
+    - NVActivityIndicatorView
+    - PromiseKit
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: bd5e7b23a1a750975288482c1831d71e74415f86
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  PromiseKit: 74e6ab5894856b4762fef547055c809bca91d440
+  SDWebImage: e9c98383c7572d713c1a0d7dd2783b10599b9838
+
+PODFILE CHECKSUM: 15c6d799a3c9a5603736ef38749fb67d1b88395f
+
+COCOAPODS: 1.16.2
